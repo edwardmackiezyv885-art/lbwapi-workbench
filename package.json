@@ -1,6 +1,6 @@
 {
   "name": "lbwapi-workbench",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "LBW Workbench · 本地破甲工作台：Node HTTP 服务 + 浏览器，无 Electron、无安装包，带字节级备份与回滚",
   "main": "server.js",

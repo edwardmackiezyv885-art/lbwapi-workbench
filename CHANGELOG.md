@@ -1,5 +1,11 @@
 # 更新日志
 
+## 1.0.1 — 挂上评测 / 教程站
+
+- 新增官方站点 [lbwapi.online](https://lbwapi.online/)：接入教程、六维实测评分、报错对照表
+- 社群页新增直达入口，README 联系方式与中转说明同步
+- 外链白名单放行 `lbwapi.online`（`coldbrew:open-external`）
+
 ## 1.0.0 — 首个公开版本
 
 **核心**

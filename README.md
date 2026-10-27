@@ -63,12 +63,12 @@ LBW Workbench 把这件事变成三步：**勾选 → 预览 → 写入**。
 
 ## 下载与安装
 
-1. 打开 [Releases](https://github.com/edwardmackiezyv885-art/lbwapi-workbench/releases/latest)，下载 `LBW-Workbench-1.0.0-win-x64.zip`
+1. 打开 [Releases](https://github.com/edwardmackiezyv885-art/lbwapi-workbench/releases/latest)，下载 `LBW-Workbench-1.0.1-win-x64.zip`
 2. 解压到任意目录（不要放在 C 盘根目录或带权限限制的路径）
 3. 核对校验和：`SHA256SUMS.txt` 在同页
 
 ```powershell
-Get-FileHash .\LBW-Workbench-1.0.0-win-x64.zip -Algorithm SHA256
+Get-FileHash .\LBW-Workbench-1.0.1-win-x64.zip -Algorithm SHA256
 ```
 
 包内已含 Node.js 24.16.0（官方签名），**不需要另外安装任何东西**。
@@ -134,7 +134,10 @@ lbwapi
 ```
 默认 Base：https://lbwapishop.online/v1
 买 Key   ：https://lbwapishop.online/wallet
+教程测评 ：https://lbwapi.online/
 ```
+
+站上的接入教程（Cursor / Cherry Studio / LobeChat / NextChat）、六维实测评分和报错对照表都可以直接对照排查。
 
 Key 默认**只存在内存里**，关掉进程就没了。想让程序记住，用命令行加 `--persist` 启动（写入 `~/.brewdesk/relay.json`，权限 0600）。
 
@@ -275,6 +278,7 @@ python tools/build_release.py
 | TG 频道 | [t.me/lbwapi](https://t.me/lbwapi) |
 | TG 私聊 | [@jiali66888](https://t.me/jiali66888) |
 | 站点 | [lbwapishop.online](https://lbwapishop.online) |
+| 评测 / 教程站 | [lbwapi.online](https://lbwapi.online/) |
 | Key 购买 | [lbwapishop.online/wallet](https://lbwapishop.online/wallet) |
 
 有问题、要定制、要闭源版本，直接找管理。

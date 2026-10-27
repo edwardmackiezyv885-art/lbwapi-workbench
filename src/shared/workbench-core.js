@@ -4,7 +4,7 @@
   else root.ColdCoffeeCore = api;
 })(typeof globalThis === 'object' ? globalThis : this, function () {
   'use strict';
-  const VERSION = '1.0.0';
+  const VERSION = '1.0.1';
   const DEEPSEEK_LABEL = 'DeepSeek v4.1 Flash 10.17版本';
   const SEATS = [
     {id:'codex',tag:'GPT-6 Astra全模型支持',mark:'01',hint:'目标清单 → 最小实现 → 验收证据'},

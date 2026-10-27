@@ -391,7 +391,7 @@ handlers['coldbrew:open-docs'] = async () => {
 
 handlers['coldbrew:open-external'] = async (_ctx, value) => {
   const url = String(value || '').trim();
-  if (!/^https:\/\/(?:github\.com|(?:www\.)?lbwapishop\.online|t\.me|telegram\.me)(\/|$)/i.test(url)) throw new Error('这个链接打不开');
+  if (!/^https:\/\/(?:github\.com|(?:www\.)?lbwapishop\.online|(?:www\.)?lbwapi\.online|t\.me|telegram\.me)(\/|$)/i.test(url)) throw new Error('这个链接打不开');
   return openExternal(url);
 };
 
