@@ -1,0 +1,21 @@
+{
+  "name": "lbwapi-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LBW Workbench · 本地破甲工作台：Node HTTP 服务 + 浏览器，无 Electron、无安装包，带字节级备份与回滚",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:persist": "node server.js --persist",
+    "check": "node --check server.js && node --check src/bridge.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jsonc-parser": "3.3.1",
+    "smol-toml": "1.9.0",
+    "yaml": "2.9.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+# 打包产物
+release/
+
+# 运行期数据
+.brewdesk/
+*.log
+
+# 开发残留
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
