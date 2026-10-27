@@ -1,0 +1,13 @@
+* text=auto
+
+# Windows 批处理必须 CRLF，否则 cmd.exe 解析标签/多行命令会出问题
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# 二进制资源不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.gz binary
+*.woff2 binary
