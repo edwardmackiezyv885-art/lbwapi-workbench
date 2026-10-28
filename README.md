@@ -61,6 +61,23 @@ LBW Workbench 把这件事变成三步：**勾选 → 预览 → 写入**。
 
 ---
 
+## 配套资源
+
+工具本体能独立跑，下面这些是分开维护的：装完之后要调模型、想看实测数据、或者想参考别人怎么用，可以从这里进。
+
+| 资源 | 地址 | 是什么 |
+| --- | --- | --- |
+| 实测数据 | https://lbwapi.online/data/ | 30 题固定题库、5 类真实场景、7 家模型的横向对比，图表与数据表可自由引用（CC BY 4.0） |
+| 接入教程 | https://lbwapi.online/tutorials/ | Cursor / Cherry Studio / LobeChat / NextChat 的完整配置步骤，附报错对照表 |
+| 用户作品 | https://lbwapi.online/vibecoding/ | 用这套工具做出来的东西，以及踩过的坑 |
+| API 中转 | https://lbwapishop.online/register | 跑通上面步骤需要的接口，注册送试用额度，1 元起充 |
+
+> 离线也能完整使用「一键破甲」「技能树」「工具箱」——只有「LBW 中转」面板需要联网。
+
+**Companion resources** — [benchmark data](https://lbwapi.online/data/) · [setup guides](https://lbwapi.online/tutorials/) · [community showcase](https://lbwapi.online/vibecoding/)
+
+---
+
 ## 下载与安装
 
 1. 打开 [Releases](https://github.com/edwardmackiezyv885-art/lbwapi-workbench/releases/latest)，下载 `LBW-Workbench-1.0.1-win-x64.zip`
