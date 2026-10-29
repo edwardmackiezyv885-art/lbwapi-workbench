@@ -288,6 +288,32 @@ python tools/build_release.py
 
 ---
 
+### 接了 LBW 中转却用不了？
+
+装好客户端只是第一步，还得把 API 填对。这部分常见问题单独整理了一份：
+
+**[客户端接入与排错](docs/CLIENT-SETUP.md)**
+
+覆盖：
+
+- **`CONTEXT_WINDOW_EXCEEDED`** — 最常见，客户端不认识模型名就按 8K 算，实际是 100 万。附一键工具和手动配置两套解法
+- **同名模型冲突** — 多个服务商都有 `deepseek-flash` 时怎么分辨、怎么清掉
+- **API 地址要带 `/v1`** — 少一段就 404
+- **速度慢的原因** — 上游每次注入约 6300 token，流式 vs 非流式的实测差异
+- **报错对照表** — 401 / 404 / model not found / 429 分别怎么处理
+
+一键配置工具（双击即用）：
+
+| 客户端 | 工具 |
+| --- | --- |
+| Pi | [LBW-Pi-Start.bat](https://lbwapi.online/pi/LBW-Pi-Start.bat) · [清理冲突](https://lbwapi.online/pi/LBW-Pi-Clean.bat) |
+| DeepSeek Harness | [LBW-DSH-Setup.bat](https://lbwapi.online/pi/LBW-DSH-Setup.bat) |
+| 诊断报告 | [LBW-Pi-diagnose.bat](https://lbwapi.online/pi/LBW-Pi-diagnose.bat) |
+
+图文版教程：<https://lbwapi.online/beginner/>
+
+---
+
 ## 联系方式
 
 | 渠道 | 地址 |
