@@ -330,7 +330,7 @@ python tools/build_release.py
 
 ## 许可与致谢
 
-本项目以 MIT 许可发布，见 [LICENSE](LICENSE)。
+本项目以 MIT 许可发布，见 [LICENSE](LICENSE)；来源与第三方组件说明见 [NOTICE.md](NOTICE.md)。
 
 - 界面主题、品牌、本地运行方式改造：Copyright (c) 2026 LBW
 - 上游基础项目（MIT）：[3641397194-wq/gpt6-Astra](https://github.com/3641397194-wq/gpt6-Astra)，Copyright (c) 2026 3641397194-wq
