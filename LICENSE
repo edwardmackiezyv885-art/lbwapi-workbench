@@ -1,11 +1,7 @@
-LBW Workbench · 本地破甲工作台
-================================================================
-
-本程序基于 MIT 许可的开源项目改造（原作者 3641397194-wq，
-原项目 https://github.com/3641397194-wq/gpt6-Astra），并按 MIT 条款继续分发。
+MIT License
 
 Copyright (c) 2026 3641397194-wq
-Copyright (c) 2026 LBW（界面主题、品牌与本地运行方式改造）
+Copyright (c) 2026 LBW
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,6 +20,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 来源与改造说明
+
+LBW Workbench · 本地破甲工作台
+
+本程序基于 MIT 许可的开源项目改造（原作者 3641397194-wq，
+原项目 https://github.com/3641397194-wq/gpt6-Astra），并按 MIT 条款继续分发。
+
+本仓库的界面主题、品牌、本地运行方式与配置写入/回滚实现为 LBW 的改造部分，
+同样按上述 MIT 条款分发。
 
 第三方组件见「第三方组件与许可.txt」（发行包内），许可证全文在 licenses/ 目录。
 随包的 REA / reverse-skill 快照各自保留原许可证与声明。
